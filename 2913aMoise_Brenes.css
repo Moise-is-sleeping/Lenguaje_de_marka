@@ -28,12 +28,14 @@
 #side_box{
     float: right;
     height: 900vw;
-    width: 25vw;
+    width: 250px;
     border-color: rgb(0, 0, 0);
     border-style:solid;
     margin: 15px;
     text-align: center;
     border-width: 1px;
+
+    
 
 }
 
