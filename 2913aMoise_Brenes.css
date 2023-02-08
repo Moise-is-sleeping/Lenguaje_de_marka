@@ -6,7 +6,7 @@
     border-color: rgb(24, 99, 211);
     background-color: rgb(255, 255, 255);
     width: 180px;
-    height: 100vw;
+    height: 110%;
     border-style: solid;
     text-align: left;
     
@@ -26,7 +26,7 @@
     width: 300px;
     text-align: center;
     float: right;
-    margin-right: 10px;
+    margin-right: 15px;
 
 
 }
@@ -34,8 +34,8 @@
 
 #side_box{
     float: right;
-    height: 100vw;
-    width: 300px;
+    height: 99%;
+    width: 30%;
     border-color: rgb(0, 0, 0);
     border-style:solid;
     margin: 15px;
@@ -48,11 +48,45 @@
 
 .Text{
     text-align:left;
-    margin-right: 420px;
-    font-size: large;
+    margin-right: 45%;
+    font-size: 1.2vw;
     
 }
 
 h1{
     font-size: 50px;
+}
+
+a:link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.form{
+    height: 200px;
+    width: 40vw;
+
+}
+
+input{
+    border: 1px;
+    border-style: solid;
+    border-radius: 100px;
+}
+
+.image{
+    width: 95%;
+    height: 70px;
+    background-image: url(wide.png) ;
+    background-size:700px;
+
+    
+}
+p{
+    font-size: 1.2vw;
 }
